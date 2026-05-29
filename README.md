@@ -9,7 +9,7 @@
 <br/>
 <br/>
 
-<h1>DigitalFlow — Landing Page</h1>
+<h1>DigitalProduct — Landing Page</h1>
 
 <p>A clean, minimal SaaS landing page. Frontend only — no backend, no database, no build step.</p>
 
@@ -21,7 +21,7 @@
 
 ## Overview
 
-**DigitalFlow** is a fully static, production-quality landing page for a SaaS digital product platform. It is built with plain HTML, Tailwind CSS (via CDN), and vanilla JavaScript — no frameworks, no build tools, no server required.
+**DigitalProduct** is a fully static, production-quality landing page for a SaaS digital product platform. It is built with plain HTML, Tailwind CSS (via CDN), and vanilla JavaScript — no frameworks, no build tools, no server required.
 
 > **This is a pure frontend project.** There is no backend server, no API, no database, and no authentication system. All content is hardcoded. Links and buttons are placeholder `href="#"` anchors.
 
@@ -33,23 +33,23 @@ Open `index.html` directly in any modern browser — no local server needed.
 
 ```bash
 # macOS
-open digitalflow/index.html
+open DigitalProduct/index.html
 
 # Linux
-xdg-open digitalflow/index.html
+xdg-open DigitalProduct/index.html
 
 # Windows
-start digitalflow/index.html
+start DigitalProduct/index.html
 ```
 
 Or serve it with any static file server:
 
 ```bash
 # Python
-python3 -m http.server 3000 --directory digitalflow
+python3 -m http.server 3000 --directory DigitalProduct
 
 # Node.js (npx)
-npx serve digitalflow
+npx serve DigitalProduct
 ```
 
 Then visit `http://localhost:3000`.
@@ -76,7 +76,7 @@ The single `index.html` file contains the following sections in order:
 ## File Structure
 
 ```
-digitalflow/
+DigitalProduct/
 ├── index.html          # Main HTML — all markup and page structure
 ├── css/
 │   └── style.css       # Custom styles: animations, glassmorphism, counters, FAQ
@@ -166,7 +166,7 @@ All animations are scroll-triggered via `IntersectionObserver` and respect `pref
 
 ### Change brand name
 
-Search and replace `DigitalFlow` in `index.html`.
+Search and replace `DigitalProduct` in `index.html`.
 
 ### Change accent color
 
